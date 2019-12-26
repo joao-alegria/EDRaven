@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.16)  26 DEC 2019 18:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.16)  26 DEC 2019 18:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -906,14 +906,20 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-] [2]
-<featurecorrelation.png, id=91, 1402.23875pt x 1394.20876pt>
+]
+Underfull \vbox (badness 1194) has occurred while \output is active []
+
+ [2]
+[3
+
+]
+<featurecorrelation.png, id=95, 1402.23875pt x 1394.20876pt>
 File: featurecorrelation.png Graphic file (type png)
 <use featurecorrelation.png>
-Package pdftex.def Info: featurecorrelation.png  used on input line 166.
+Package pdftex.def Info: featurecorrelation.png  used on input line 168.
 (pdftex.def)             Requested size: 504.0pt x 501.10637pt.
 
-Overfull \hbox (252.0pt too wide) in paragraph at lines 166--167
+Overfull \hbox (252.0pt too wide) in paragraph at lines 168--169
  [][] 
  []
 
@@ -928,27 +934,27 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
-[3
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
+[4
 
 
  <./featurecorrelation.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 4FF79652029673E8771782D7AB26E2EF;824.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 171.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 173.
  ) 
 Here is how much of TeX's memory you used:
- 8384 strings out of 494326
- 120560 string characters out of 6163849
+ 8385 strings out of 494326
+ 120566 string characters out of 6163849
  214591 words of memory out of 5000000
  11624 multiletter control sequences out of 15000+600000
  41034 words of font info for 86 fonts, out of 8000000 for 9000
  352 hyphenation exceptions out of 8191
- 28i,8n,35p,2027b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,8n,35p,2027b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/
@@ -957,10 +963,10 @@ ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (3 pages, 1423885 bytes).
+Output written on report.pdf (4 pages, 1424576 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 117 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 500000)
+ 138 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 500000)
  118 words of extra memory for PDF output out of 10000 (max. 10000000)
 
