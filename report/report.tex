@@ -157,7 +157,7 @@ and testing entries.
 The way we divided the results was 80\% for the training of the classifiers and 
 20\% for testing, due to the relatively reduced size of the dataset.
 
-\section{Data Quality \& Normalization}
+\section{Data Quality \& Normalization}\label{data}
 
 The first thing we did with the raw data was to correlate every possible pair 
 of features through 2-Dimensional projections.
@@ -213,25 +213,29 @@ to offer.
     \end{equation}
 \end{multicols}
 
-\section{Classifiers}
-In this section we will present and give a brief summary of all the machine learning models used in this study.
+\section{Classifiers}\label{classifiers}
+In this section we will present and give a brief summary of all the machine learning models used in this study. We chose this models since through a brief state of the art analysis we concluded that these are the most common and suggested models when handling machine learning problems, and also the ones that achieve the best performance overall. We also found that some of the models used are to most recommended when handling with data similar to our context.
 
 \subsection{Support Vector Machine}
-Commonly denoted as SVM, this supervised machine learning model with the supplied training set, by mapping the several data entries in the a multidimensional space in a way that the the widest possible gap exist between the data of each class. Based in that gap a model is created and a decision rule defined that when feed new data tries to assign a class to that entry by using the decision rule already mentioned.
+\textit{Support Vector Machine}, commonly denoted as SVM, is a supervised machine learning model that with the supplied training set, maps the different data entries into a multidimensional space in a way that the widest possible gap exists between the data of each class. Based in that gap a model is created and a decision rule defined that when feed new data tries to assign a class to that entry by comparing against the decision rule already mentioned.
+
+The most common and simple SVM application tries to creates a linear division between the presented classes. Another alternative that allows more complex decision rules is the application of a kernel trick, that implicitly maps tha data to a higher-dimensioned feature space which may enable a better separation of the data.
 
 \subsection{MultiLayer Perceptron}
-This class of feedforward artificial neural network is another supervised machine learning model. MLP is sometimes strictly refers to networks composed of multiple layers of perceptrons. Perceptron is also a supervised learning algorithm capable of doing binary classifications according to a linear predictor function. The power of the MLP is the junction of several of those perceptrons that individually don't have the a good performance, but the combine performance can reach significant values.
+\textit{MultiLayer Perceptron} is a class of feedforward artificial neural network is another supervised machine learning model. MLP is sometimes strictly refers to networks composed of multiple layers of perceptrons. Perceptron is also a supervised learning algorithm capable of doing binary classifications according to a linear predictor function. The power of the MLP is the junction of several of those perceptrons that individually don't have the a good performance, but the combine performance can reach significant values.
 
 This junction normally follows a standard architecture divided in layers, firstly a input layer, followed by one or more hidden layers and an output layer. The input and the output layers are the ones that interact with the exterior, being the first, as the name indicates teh one where the data should be injected at and the second where the result will be presented. The hidden layers is where the main learning occurs and where the most amount of fine-tunning is applied. In this entire architecture the number of layers and the number of neurons(singular cell inside a layer) can be tunning to improve the model performance.
 
 \subsection{Decision Tree}
-As the name suggests, this model uses a tree like structure to support the data classification decision. The construction of this auxiliary structure is quite simple and straightforward, consisting in assigning a condition to each new branch, causing that the structure will converge with having only one class in leaf nodes, defining the conditions required to identify the existing classes. 
+This supervised learning algorithm, as the name suggests, uses a tree like structure to support the data classification decision and aims to convert the observed patterns in the train data into conclusions about the data classes. The construction of this auxiliary structure is quite simple and straightforward, consisting in assigning a condition to each new branch, causing that the structure will converge in having only one class in leaf nodes, defining the conditions required to identify the existing classes. These condition choices must be taken with caution since a poor decision in this phase may cause a drastic decrease in the performance of the overall model. Many times this process uses \textit{Entropy} as a guide, where \textit{Entropy} indicates, in a very high level approximation, the level of confusion/chaos/randomness of a set of information, thereby if the data tested belongs to only one class, the entropy should be 0 and the system knows that that data portion doesn't need to be divided anymore.
 
 \subsection{Random Forest}
+Similarly to the last model, \textit{Random Forest} is also a supervised learning model and also uses tree structures to support the models' classification decisions. The difference is that in this approach the model uses several instances of Decision Trees, with the purpose of since sometimes Decision Tree don't generate the best performance possible, using multiple and dividing the problem so that not every tree specializes in all the features, dividing and conquering the problem.
 
 \subsection{K Nearest Neighbors}
+The last model that we decided to test was the \textit{K Nearest Neighbors}, which although being one of the simplest learning algorithms, still is essential in the Machine Learning area. Still in the supervised learning algorithm area, this model uses a very simple approach to it's classification process; by representing every train data entry in a multidimensional space, once presented with new data, the model simple represents that new entry in the mentioned multidimensional space and verifies the class of the K nearest points(train entries), and the most frequent class in that K dataset is the one that is assigned to that new data entry. 
 
-\section{Models Fine Tuning}
+\section{Models Fine Tuning}\label{parameters}
 
 \subsection{Performance Evaluation}
 
@@ -315,12 +319,50 @@ The best configuration gave an accuracy of 53\%, with F1 at 60\%.
 Lorem ipsum ...
 
 \section{Results Discussion}
+After executing all the parameter variation study, the feature analysis as well as some feature addition in hopes of adding some extra meaningful information to the already existing data, the best performance results were the ones presented in Section \ref{parameters}.
+Although not the most satisfying results, since when conducting a machine learning problem the aim is to obtain a model with a defined set of hyperparameters that generate a good performance with good values(close to 100\%) on its performance indicators, but the results obtained in this study have a reason to be.
 
-Lorem ipsum ...
+Referring to Section \ref{data}, one of the conclusions taken from analyzing the Figure \ref{fig:feature} was that no obvious division was observable in the data projections in the different feature pair plane. Although this conclusion not absolute proof that the data isn't separable, the results of the tested model indicate that that is the case. This can be caused by several reasons, ranging from the dataset quality, the models used, the tunning of the hyperparameters or even the case of overfitting of the training data. 
+
+Through a deeper analysis over the data itself we didn't found any aspect that could compromise our study; the origin of the data and the metrics gathered seemed to be the most adequate for this type of study; the features also seemed to be widespread enough to encapsule all the possible signals related to this study, such as fatigue, immersion, stress, \dots. In relation to the models used, as already mentioned in Section \ref{classifiers} are state-of-the-art, therefor should perform well enough with the dataset presented, and for that matter, with any dataset. The parameters variation was probably the portion of the report study that took the longer, since we made a meticulous study of the parameters for all the models trained as detailed in Section \ref{parameters}. For that reason we can conclude that the parameter choice is also not the problem. Finally, in relation to the overfitting problem, the fact that all the models used gave similar results, it's quite improbable that all of them suffer from the overfitting. That allows us to also remove this problem from our list of possible issues.
+
+Knowing that the variables in our reach are properly tested and in theory are correct, we can only conclude that the data itself is inseparable. This means that the two classes presented, the students from \textit{DEI} and the students from \textit{ESEC}, although obviously two different groups in this study, the conducted experiment indicates that in terms of the \textit{RAVEN} intelligence estimation test there is no difference between the two groups.
+
+Finally, in spite of all models produced a similar performance, where the \textit{Accuracy} averaged in the 55\% mark and the \textit{F-Score} averaged in the 65\% mark. This difference is due to the fact that both \textit{Precision} and \textit{Recall} are slightly higher than the \textit{Accuracy}, which indicates that however the classification is almost random, in reality the models are able to generate more true results than negative results, which is quite interesting given the limitations observed from the models.
 
 \section{Conclusions \& Future Work}
 
-Lorem ipsum ...
+Determining differences between populations is not a trivial task.
+The subjectiveness element of intelligence measurements increase the complexity 
+of such problem, and so clear conclusions are very hard to find.
+Nevertheless there are many cases where, when the correct analysis tools are 
+applied, solid conclusions are reached - even if they are precisely that 
+no conclusion can be drawn - and this is exactly that case.
+
+By discussing our results and the similarity of outcomes between very different 
+classification models, and comparing our results with those obtained in the 
+original study conducted by the dataset authors, we were able to understand that 
+in fact there are no significant differences between Multimedia and Informatics 
+students in terms of intelligence.
+In fact, this is parallel to our initial suppositions, as both classes require 
+highly cognitive skills and problem solving capacities, even though applied to 
+very different situations.
+
+For future work, we believe it would not be a good idea to attempt implementing 
+other classification algorithms, as they would very much likely return similar 
+results.
+Instead, if the interest of analyzing the same dataset remained, we would 
+probably address different questions such as "Are there any differences between 
+women and men within these courses?", or "Is it possible to predict whether a 
+student will get the answer right to one of the Raven's tasks or not?".
+
+Our overall perspective on the project is very positive, even though we, as 
+Informatics students, were wishing to find advantages on the side of the 
+students with a similar background as ourselves.
+Nevertheless, we found the use of Jupyter Notebooks very practical and adequate 
+to assignments such as this and, as it allowed us to segment the work to be done,
+we were able to keep a good balance and work distribution between group elements 
+throughout the development.
 
 % \begin{itemize}
 % \item Lorem ipsum ...
@@ -374,6 +416,7 @@ Lorem ipsum ...
 % https://en.wikipedia.org/wiki/Multilayer_perceptron
 % https://en.wikipedia.org/wiki/Perceptron
 % https://en.wikipedia.org/wiki/Decision_tree
+% https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm
 \vspace{12pt}
 
 \clearpage
