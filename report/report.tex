@@ -39,20 +39,70 @@
 \maketitle
 
 \begin{abstract}
-...
+The search for trustworthy methodologies of determining a measurable intelligence
+index has been a quest of our brightest minds for decades.
+Raven matrices tests have proved to have widespread practical use as a measure 
+of intelligence.
+They are a source of data for many studies on the general population as they seem 
+promising tools for contexts such as psychometric tests or clinical assessment.
+
+In one study on the application of these matrices to groups of students from 
+different backgrounds, questions emerged regarding the possibility of clear 
+differences between Multimedia and Informatics students.
+In this paper we present the statistical analysis applied to the tests results 
+with the help of ML classification techniques in search for determining whether 
+any of the two groups showed significant advantages over the other.
 \end{abstract} 
 
 \begin{IEEEkeywords}
-...
+Raven Matrices, Psychometric Tests, Intelligence Measure, 
+Support Vector Machine, Multi-Layer Perceptron, Decision Tree, K-Nearest-Neighbors
 \end{IEEEkeywords}
 
 \section{Introduction}
 
-Lorem ipsum ...
+Raven's Advanced Progressive Matrices (RAPM) is a non-verbal group test 
+typically present in educational or clinical settings, as it is used in 
+measuring abstract reasoning and regarded as a non-verbal estimate of fluid 
+intelligence \cite{rapm}.
+Examples of related test are Naglieri Nonverbal Ability or Spacial Ability Tests.
+Their practical use is very extended, and applicable to both adults and children.
+Nevertheless, studies that resort to them usually focus on populations containing 
+groups with specific differences in order to draw conclusions from these differences.
+Examples of these studies are on different military sections, or different 
+mental disabilities.
+
+In the study whose collected data was used for our analysis \cite{study}, the 
+aim was to compare university students from different fields in terms of 
+learning styles effectiveness.
+Several tests such as Kolb and VAK or Hermann dominances allow to distinguish
+some learning styles like: Accommodator, Assimilator, Auditory, Convergent,
+Divergent, Kinesthetic and Visual.
+But beyond this, the researchers also applied the RAPM tests to reach more 
+robust conclusions, and combine all results in a meaningful way.
+In this paper we focus only on the data related to the second set of tests.
+
+The population that conducted the Raven tests was a group of 45 university 
+students, 21 of Design and Multimedia and 24 of Informatics Engineering.
+48 problems were presented to the distinct populations and were divided into 
+two phases: during the first 12, the participant would receive a feedback about 
+his/her answer; for the remaining 36 no feedback was given.
+During the test execution electroencephalographic (EEG) signals were registered 
+while the participants performed the tasks, using Enobio 8 EEG recording headset 
+and 8 channels: \textit{F3, F4, T7, C3, Cz, C4, T8} and \textit{Pz}.
+
+Our aim is to determine, solely from this estimated measurement of intelligence,
+whether both groups hold characteristics significantly different from each other
+by building classification algorithms that interpret the EEG signals and other 
+time-related metrics as features and attempt to predict which class of students
+a new entry belongs to.
+We also intend to compare our conclusions with those obtained by the original researchers.
 
 \section{Dataset \& Feature Extraction}
 
 Lorem ipsum ...
+
+
 
 \section{Data Quality \& Normalization}
 
@@ -117,7 +167,10 @@ Lorem ipsum ...
 % \end{figure}
 
 \begin{thebibliography}{00}
-\bibitem{assign2} A. Tomé, "Data Mining Assignment", \url{https://elearning.ua.pt/pluginfile.php/1496406/mod_resource/content/3/ED_HCT_Raven.pdf}, accessed in November 2019.
+\bibitem{rapm} Warren B. Bilker et al., "Development of Abbreviated Nine-item Forms of the Raven’s Standard Progressive Matrices Test", \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4410094}, accessed in December 2019.
+\bibitem{study} Felisa M. Córdova et al., "Identifying Problem Solving Strategies for Learning Styles in Engineering Students Subjected to Intelligence Test and EEG Monitoring", \url{https://www.sciencedirect.com/science/article/pii/S1877050915014787}, Procedia Computer Science 55 (2015), accessed in December 2019.
+\bibitem{assign2} A. Tomé, "Data Mining Assignment", \url{https://elearning.ua.pt/pluginfile.php/1496406/mod_resource/content/3/ED_HCT_Raven.pdf}, accessed in December 2019.
+
 \end{thebibliography}
 \vspace{12pt}
 
