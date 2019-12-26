@@ -2,7 +2,13 @@
 \BOOKMARK [1][-]{section.2}{Dataset \046 Feature Extraction}{}% 2
 \BOOKMARK [1][-]{section.3}{Data Quality \046 Normalization}{}% 3
 \BOOKMARK [1][-]{section.4}{Classifiers}{}% 4
-\BOOKMARK [1][-]{section.5}{Parameters Variation}{}% 5
-\BOOKMARK [1][-]{section.6}{Results Discussion}{}% 6
-\BOOKMARK [1][-]{section.7}{Conclusions \046 Future Work}{}% 7
-\BOOKMARK [1][-]{section*.1}{References}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{Support Vector Machine}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{MultiLayer Perceptron}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.3}{Decision Tree}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.4}{Random Forest}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.5}{K Nearest Neighbors}{section.4}% 9
+\BOOKMARK [1][-]{section.5}{Parameters Variation}{}% 10
+\BOOKMARK [1][-]{section.6}{Results Discussion}{}% 11
+\BOOKMARK [1][-]{section.7}{Conclusions \046 Future Work}{}% 12
+\BOOKMARK [1][-]{section*.1}{References}{}% 13
+\BOOKMARK [1][-]{section*.2}{Appendix}{}% 14
