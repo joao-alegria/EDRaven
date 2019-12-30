@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.9.24)  27 DEC 2019 17:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.9.24)  30 DEC 2019 19:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -412,67 +412,67 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 294.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 295.
  [2]
-Overfull \hbox (4.97351pt too wide) in paragraph at lines 442--445
+Overfull \hbox (4.97351pt too wide) in paragraph at lines 444--447
 \T1/ptm/m/n/9 "Are there any dif-fer-ences be-tween women and men within these courses?",
  []
 
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 482.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 484.
 (/usr/share/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Underfull \hbox (badness 1377) in paragraph at lines 482--483
+Underfull \hbox (badness 1377) in paragraph at lines 484--485
 []\T1/ptm/m/n/9 Warren B. Bilker et al., "De-vel-op-ment of Ab-bre-vi-ated Nine-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 482--483
+Underfull \hbox (badness 10000) in paragraph at lines 484--485
 \T1/pcr/m/n/9 https : / / www . ncbi . nlm . nih . gov / pmc / articles /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--484
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
 []\T1/ptm/m/n/9 Felisa M. Cór-dova et al., "Iden-ti-fy-ing Prob-lem Solv-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--484
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
 \T1/ptm/m/n/9 ing Strate-gies for Learn-ing Styles in En-gi-neer-ing Stu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--484
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
 \T1/ptm/m/n/9 dents Sub-jected to In-tel-li-gence Test and EEG Mon-i-tor-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--484
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
 \T1/ptm/m/n/9 ing", $\T1/pcr/m/n/9 https : / / www . sciencedirect . com / science /
  []
 
 
-Underfull \hbox (badness 6708) in paragraph at lines 483--484
+Underfull \hbox (badness 6708) in paragraph at lines 485--486
 \T1/pcr/m/n/9 article / pii / S1877050915014787$\T1/ptm/m/n/9 , Pro-ce-dia Com-puter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--485
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
 \T1/pcr/m/n/9 ua . pt / pluginfile . php / 1496406 / mod _ resource /
  []
 
 
-Underfull \hbox (badness 7273) in paragraph at lines 484--485
+Underfull \hbox (badness 7273) in paragraph at lines 486--487
 \T1/pcr/m/n/9 content / 3 / ED _ HCT _ Raven . pdf$\T1/ptm/m/n/9 , ac-cessed in De-cem-ber
  []
 
 <featurecorrelation.png, id=19, 1402.23875pt x 1394.20876pt>
 File: featurecorrelation.png Graphic file (type png)
 <use featurecorrelation.png>
-Package pdftex.def Info: featurecorrelation.png  used on input line 504.
+Package pdftex.def Info: featurecorrelation.png  used on input line 506.
 (pdftex.def)             Requested size: 526.376pt x 523.35884pt.
 
-Overfull \hbox (263.188pt too wide) in paragraph at lines 504--505
+Overfull \hbox (263.188pt too wide) in paragraph at lines 506--507
  [][] 
  []
 
@@ -491,7 +491,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  41i,9n,30p,401b,265s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/fp/Desktop/4A1S/ED/P/part2/proj2/report/recpad_review.pdf (4 pages, 1460877 bytes).
+Output written on /home/fp/Desktop/4A1S/ED/P/part2/proj2/report/recpad_review.pdf (4 pages, 1460885 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream

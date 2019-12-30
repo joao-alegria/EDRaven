@@ -73,7 +73,7 @@
 
 Raven's Advanced Progressive Matrices (RAPM) is a non-verbal group test typically present in educational or clinical settings, as it is used in measuring 
 abstract reasoning and regarded as an estimate of fluid intelligence \cite{rapm}.
-Examples of related test are Naglieri Nonverbal Ability or Spacial Ability Tests.
+Examples of related tests are Naglieri Nonverbal Ability or Spacial Ability Tests.
 Their practical use is very extended, and applicable to both adults and children.
 Nevertheless, studies that resort to them usually focus on populations containing groups with specific differences in order to draw conclusions from these differences.
 Examples of these studies are on different military sections, or different mental disabilities.
@@ -136,7 +136,7 @@ The relevant marks for the signal analysis are around:
 \item Student's Answer
 \end{itemize}
 \vspace{2pt}
-On the problem and possible solutions displays, the considered signal processing windows were [-75 500] ms.
+On the problem and possible solutions displays, the considered signal processing window was [-75 500] ms.
 On the student's answer, the window was [-500 500] ms.
 
 Some of the considered metrics were:
@@ -262,8 +262,8 @@ Table \ref{fig:feature} is the visual representation of this correlation as an o
 
 Through the analysis of this table, we can gather some important conclusions. 
 The most clear characteristic detected was the presence of outliers, one that was already expected and needed to be taken care of.
-The second was the fact that the data in all pairs of features doesn't appear to be separable, i.e. there should be something resembling two groups, one for 
-each class, or point clouds in some of the projections.
+The second was the fact that in all pairs of features the data doesn't appear to be separable, i.e. there should be something resembling two groups or point clouds,
+one for each class, in some of the projections.
 If this was visible, the possibility of actually existing a difference between groups would be likelier to be true.
 However, that does not seem to be the case, since in most cases we are presented with uniform distributions, gaussian distributions or simply the grouping of 
 all data in a unique central point. 
@@ -287,17 +287,19 @@ deviation are not considered as they do not have valuable information to offer.
 \end{equation}
 
 \section{Classifiers}\label{classifiers}
-In this section we will present and give a brief summary of all the machine learning models used in this study. We chose this models since through a brief state 
-f the art analysis we concluded that these are the most common and suggested models when handling machine learning problems, and also the ones that achieve the 
-best performance overall. We also found that some of the models used are to most recommended when handling with data similar to our context.
+In this section we will present a brief summary of all the machine learning models used in this study. 
+We chose these models since, through a brief state-of-the-art analysis, we concluded that these are the most common and suggested models and the ones that 
+usually achieve the best performance overall in machine learning problems. 
+We also found that some of the models used are the most recommended when handling data similar to our context.
 
 \subsection{Support Vector Machine}
-\textit{Support Vector Machine}, commonly denoted as SVM, is a supervised machine learning model that with the supplied training set, maps the different data 
-entries into a multidimensional space in a way that the widest possible gap exists between the data of each class. Based in that gap a model is created and a 
-decision rule defined that when feed new data tries to assign a class to that entry by comparing against the decision rule already mentioned.
+\textit{Support Vector Machine}, commonly denoted as SVM, is a supervised machine learning model that maps the different data entries into a multidimensional 
+space with the supplied training set in a way that the widest possible gap exists between the data of each class. 
+Based on that gap, a model is created and a decision rule defined so that, when fed with new data, it tries to assign a class to it by comparing the information 
+against the defined decision rule.
 
 The most common and simple SVM application tries to creates a linear division between the presented classes. Another alternative that allows more complex 
-decision rules is the application of a kernel trick, that implicitly maps tha data to a higher-dimensioned feature space which may enable a better separation 
+decision rules is the application of a kernel trick, that implicitly maps the data to a higher-dimensioned feature space, which may enable a better separation 
 of the data.
 
 \subsection{MultiLayer Perceptron}
