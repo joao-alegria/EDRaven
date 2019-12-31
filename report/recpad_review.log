@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.16)  31 DEC 2019 11:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.16)  31 DEC 2019 11:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -624,49 +624,43 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 \bmv@box authnameFN2 =\box36
 \bmv@box authmail2 =\box37
 \bmv@cnt authinst2 =\count118
-\bmv@box authname3 =\box38
-\bmv@box authnameFN3 =\box39
-\bmv@box authmail3 =\box40
-\bmv@cnt authinst3 =\count119
-\bmv@box inst1 =\box41
-\bmv@box instFN1 =\box42
+\bmv@box inst1 =\box38
+\bmv@box instFN1 =\box39
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
-\bmv@box inst2 =\box43
-\bmv@box instFN2 =\box44
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
  (./recpad_review.aux)
 \openout1 = `recpad_review.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 33.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count120
+\scratchcounter=\count119
 \scratchdimen=\dimen128
-\scratchbox=\box45
-\nofMPsegments=\count121
-\nofMParguments=\count122
+\scratchbox=\box40
+\nofMPsegments=\count120
+\nofMParguments=\count121
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count123
+\MPscratchCnt=\count122
 \MPscratchDim=\dimen129
-\MPnumerator=\count124
-\makeMPintoPDFobject=\count125
+\MPnumerator=\count123
+\makeMPintoPDFobject=\count124
 \everyMPtoPDFconversion=\toks26
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -714,7 +708,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box46
+\AtBeginShipoutBox=\box41
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -751,90 +745,80 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <11.5> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 40.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <11.5> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 40.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 40.
-
-Overfull \hbox (4.94704pt too wide) in paragraph at lines 40--40
-[][]$[][] $[][] 
- []
-
-
-Overfull \hbox (4.94704pt too wide) in paragraph at lines 40--40
-[]$[][] $[][] 
- []
-
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 40.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 35.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 35.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <11> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 44.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 94.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 89.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 173.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 168.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \hbox (1.55923pt too wide) in paragraph at lines 171--174
+Overfull \hbox (1.55923pt too wide) in paragraph at lines 166--169
 []\T1/ptm/m/n/9 The im-ple-men-ta-tion of the men-tioned ML mod-els was done in
  Python,
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 175.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 170.
 [2]
-Overfull \hbox (4.97351pt too wide) in paragraph at lines 337--340
+Overfull \hbox (4.97351pt too wide) in paragraph at lines 332--335
 \T1/ptm/m/n/9 "Are there any dif-fer-ences be-tween women and men within these 
 courses?",
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 391--392
+Underfull \hbox (badness 1377) in paragraph at lines 386--387
 []\T1/ptm/m/n/9 Warren B. Bilker et al., "De-vel-op-ment of Ab-bre-vi-ated Nine
 -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--392
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
 \T1/pcr/m/n/9 https : / / www . ncbi . nlm . nih . gov / pmc / articles /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--393
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
 []\T1/ptm/m/n/9 Felisa M. Cór-dova et al., "Iden-ti-fy-ing Prob-lem Solv-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--393
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
 \T1/ptm/m/n/9 ing Strate-gies for Learn-ing Styles in En-gi-neer-ing Stu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--393
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
 \T1/ptm/m/n/9 dents Sub-jected to In-tel-li-gence Test and EEG Mon-i-tor-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--393
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
 \T1/ptm/m/n/9 ing", $\T1/pcr/m/n/9 https : / / www . sciencedirect . com / scie
 nce /
  []
 
 
-Underfull \hbox (badness 6708) in paragraph at lines 392--393
+Underfull \hbox (badness 6708) in paragraph at lines 387--388
 \T1/pcr/m/n/9 article / pii / S1877050915014787$\T1/ptm/m/n/9 , Pro-ce-dia Com-
 puter
  []
@@ -842,10 +826,10 @@ puter
 <featurecorrelation.png, id=20, 2022.55624pt x 1999.47pt>
 File: featurecorrelation.png Graphic file (type png)
 <use featurecorrelation.png>
-Package pdftex.def Info: featurecorrelation.png  used on input line 408.
+Package pdftex.def Info: featurecorrelation.png  used on input line 403.
 (pdftex.def)             Requested size: 526.376pt x 520.3686pt.
 
-Overfull \hbox (263.188pt too wide) in paragraph at lines 408--409
+Overfull \hbox (263.188pt too wide) in paragraph at lines 403--404
  [][] 
  []
 
@@ -856,11 +840,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <./featurecorrelation.png>] (./recpad_review.aux) ) 
 Here is how much of TeX's memory you used:
- 4566 strings out of 494326
- 60598 string characters out of 6163849
- 139907 words of memory out of 5000000
- 7781 multiletter control sequences out of 15000+600000
- 73952 words of font info for 107 fonts, out of 8000000 for 9000
+ 4559 strings out of 494326
+ 60488 string characters out of 6163849
+ 139649 words of memory out of 5000000
+ 7775 multiletter control sequences out of 15000+600000
+ 72798 words of font info for 106 fonts, out of 8000000 for 9000
  352 hyphenation exceptions out of 8191
  41i,9n,30p,355b,265s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-d
@@ -874,7 +858,7 @@ hare/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive
 fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on recpad_review.pdf (4 pages, 2585269 bytes).
+Output written on recpad_review.pdf (4 pages, 2584613 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream
