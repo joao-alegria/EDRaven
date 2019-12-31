@@ -24,3 +24,14 @@ João Alegria, nmec.85048
 
 - src: contains the Jupyter Notebooks developed by us and the requirements for their execution
 
+## Instalation guide:
+1. Install necessary requirements:
+```
+$ pip3 install -r requirements
+```
+
+2. Launch the Jupyter server:
+```
+$ cd src
+$ jupyter-notebook .
+```
