@@ -3,6 +3,7 @@
 
 \usepackage{enumitem}
 \usepackage{graphicx}
+\usepackage[utf8]{inputenc}
 
 \title{Assignment 2: The Raven Test \\ \LARGE{In Search for Group Differences}}
 
@@ -396,7 +397,9 @@ The best configuration gave an accuracy of 53\%, with F1 at 60\%.
 
 \subsection{Feature Manipulation}
 
-Lorem ipsum ...
+As an extra effort to try to extract or even create some additional meaningful information, we decided to create new features based on the already existing ones. Although not understanding completely the true meaning of the features in hand, as a logical aggregation we decided to multiply \textit{Display} metrics with their corresponding \textit{Solutions} metric. This, by our interpretation, allows a finer definition of the metric itself.
+
+After creating the new dataset and re-training all the models, we concluded that this attempt only produced minor improvements over the previous results, reaching sometimes increases og 5\% on the performance metrics. This improvements are not the ones we were looking for when adding the new generated features, but nevertheless are welcome. This increase in the accuracy/f-score still maintain the expected results and the behavior our assumptions predicted.
 
 
 \section{Results Discussion}
