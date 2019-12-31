@@ -149,8 +149,7 @@ distinguishing factors.
 To do this, we centered the data and removed the detected outliers.
 Equation \ref{zscore} contains the formula of the \textit{Z-Score} algorithm applied to each feature to center all values.
 Then, we removed any data entry that contained a \textit{Null} value, since that would cause problems for the models' processing.
-Finally we removed the still existing outliers with the help of equation \ref{outliers}, that ensures that entries with very distant values from the standard 
-deviation are not considered as they do not have valuable information to offer.
+Finally we removed the still existing outliers with the help of equation \ref{outliers}, that ensures that entries with very distant values from the feature central point are not considered as they do not have valuable information to offer.
 
 \vspace{-5pt}
 \begin{equation}\label{zscore}
@@ -234,8 +233,7 @@ Once the classification models were implemented, we needed to measure their perf
 This was accomplished through the confusion matrix, a matrix that correlates a model's predictions with the true values and gives us the number of: 
 true positives (TP) and true negatives (TN), the correct predictions of wether an entry belongs to 1 of the classes or not; false positives (FP) and 
 false negatives (FN), the incorrect predictions.
-The class defined as true can be any of the two, as the process is equivalent when inversed.
-In our case this was done internally by library sklearn \cite{sklearn}.
+In our case, this performance metrics calculations were done internally by library sklearn \cite{sklearn}.
 With these values, we were able to compute 4 performance metrics:
 \begin{itemize}[noitemsep,nolistsep]
 \item Accuracy, given by $A = \frac{TP + TN}{TP + TN + FP + FN}$
